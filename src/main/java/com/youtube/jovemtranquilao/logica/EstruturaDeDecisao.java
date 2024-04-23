@@ -56,7 +56,7 @@ public class EstruturaDeDecisao {
         }
     }
 
-    private static void datas()  {
+    private static void datas() {
         try {
             Date data = new SimpleDateFormat("dd/MM/yyyy").parse("21/04/2024");
             if (data.before(new Date())){
